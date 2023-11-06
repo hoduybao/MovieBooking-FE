@@ -1,0 +1,196 @@
+.seat-selection {
+  text-align: center;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 50px;
+  height: 100vh;
+
+}
+
+.seat-map {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr); /* Điều chỉnh số cột tùy ý */
+  gap: 5px;
+  width: 700px;
+  margin-top: 30px;
+}
+
+.seat {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+  background: white;
+  border-radius: 6px;
+
+}
+
+/* Tuỳ chỉnh kiểu chỗ ngồi đã được chọn */
+.seat.selected {
+  background-color: #3fdf27;
+  color: black;
+}
+
+.seat:hover{
+  background-color: #3fdf27;
+  color: black;
+
+}
+
+.selection-container{
+  display: flex;
+}
+
+.checkout{
+  text-align: center;
+  margin-left: 100px;
+  width: 400px;
+  color: white;
+}
+
+.seat-label{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background: rgb(167, 166, 166);
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.selected-seats{
+  display: flex;
+}
+
+.total-price{
+  display: flex;
+}
+
+.checkout-name{
+  text-align: center;
+}
+
+.selected-seats-name{
+  font-weight: bold;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.total-price-name{
+  font-weight: bold;
+  margin-right: 10px;
+
+}
+
+.reserve-container{
+  background: #210035;
+}
+
+.seat-numbers{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  background-color: #cb6f33;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 0px 2px 2px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.seat-type{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.seat-type-model{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+  background: white;
+  border-radius: 10px;
+  margin-left: 60px;
+
+}
+
+.seat-type-model-2{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+  background: #3fdf27;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+
+}
+
+.seat-type-model-3{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+  background: #f5b501;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+
+}
+
+.seat-type-model-4{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+  background: #8daddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+}
+
+.label{
+  color: white;
+}
+
+.model-container{
+  width: 150px;
+}
