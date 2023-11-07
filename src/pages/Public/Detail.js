@@ -77,7 +77,7 @@ function MovieDetail() {
               </div>
               <div>Hindi</div>
             </div>
-            <div className="flex">
+            <div className="flex mt-6 gap-4">
               <button class="button-detail">Show time</button>
               <button class="button1">Watch trailer</button>
             </div>

@@ -1,6 +1,5 @@
 .movie-detail{
   display: flex;
-  max-width: 1140px;
   margin: auto;
   position: absolute;
     top: 60px;
@@ -23,6 +22,9 @@
 .category{
   width: 110px;
 }
+.container{
+  max-width: 100%;
+}
 
 .detail-container {
   position: relative;
@@ -37,12 +39,12 @@
   background-color: #5f1a89;
   border: none;
   color: white;
-  padding: 15px 32px;
+  font-weight:500;
+  padding: 5px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 15px 0px 2px 10px;
   cursor: pointer;
   border-radius: 6px;
 }
@@ -56,15 +58,14 @@
   background-color: transparent;
   border: 2px solid;
   color: white;
-  padding: 15px 32px;
+  font-weight:500;
+  padding: 5px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 15px 0px 2px 2px;
   cursor: pointer;
   border-radius: 6px;
-  margin-left: 10px;
 }
 
 .button1:hover{
@@ -80,6 +81,7 @@
   width: 100%;  
   padding: auto;
   padding-top: 120px;
+  padding-left: 100px;
   background: black;
   color: white;
   padding-bottom: 58px;
@@ -87,7 +89,6 @@
 }
 
 .des-title{
-  max-width: 1140px;
   margin: auto;
   font-weight: 700;
   font-size: 24px;
@@ -98,10 +99,9 @@
   align-items: center;
 }
 .des-content{
-  max-width: 1140px;
   margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .styled-table {
@@ -113,7 +113,7 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   background: #252629;
   border-radius: 6px;
-  margin-top: 28px;
+  margin-top: 50px;
 }
 
 .styled-table th,
