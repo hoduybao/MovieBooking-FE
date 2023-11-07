@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "../style/booking.css";
+import "../../style/booking.css";
 
 function SeatSelection() {
   const [selectedSeats, setSelectedSeats] = useState('');

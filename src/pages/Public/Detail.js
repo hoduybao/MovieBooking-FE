@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../style/detail.css";
+import "../../style/detail.css";
 import { StarFilled } from "@ant-design/icons";
 function MovieDetail() {
   return (
@@ -77,8 +77,8 @@ function MovieDetail() {
               </div>
               <div>Hindi</div>
             </div>
-            <div>
-              <button class="button">Show time</button>
+            <div className="flex">
+              <button class="button-detail">Show time</button>
               <button class="button1">Watch trailer</button>
             </div>
           </div>
@@ -98,7 +98,7 @@ function MovieDetail() {
               <td>11:05 AM - 12:00 AM</td>
               <td>
                 {" "}
-                <button className="button">Đặt vé</button>
+                <button className="button-detail">Get ticket</button>
               </td>
             </tr>
             <tr>
@@ -106,7 +106,7 @@ function MovieDetail() {
               <td>11:05 AM - 12:00 AM</td>
               <td >
                 {" "}
-                <button className="button">Đặt vé</button>
+                <button className="button-detail">Get ticket</button>
               </td>
             </tr>
           </tbody>
