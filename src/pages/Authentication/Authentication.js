@@ -8,13 +8,13 @@ const Authentication = () => {
   const location = useLocation();
 
   // Sử dụng location.pathname để xác định trang hiện tại
-  const currentPage = location.pathname === "/login" ? "login" : "register";
+  const currentPage = location.pathname === "/auth/login" ? "login" : "register";
 
   const handleSwitchPage = (page) => {
     if (page === "login") {
-      navigate("/login");
+      navigate("/auth/login");
     } else {
-      navigate("/register");
+      navigate("/auth/register");
     }
   };  
 

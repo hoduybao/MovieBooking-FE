@@ -4,7 +4,10 @@ const path = {
     LOGIN: 'login',
     REGISTER: 'register',
     DETAIL: 'detail',
-    BOOKING: 'booking'
+    BOOKING: 'booking',
+    AUTHENTICATION: '/auth',
+    SHOWTIMES: 'showtimes',
+    ABOUT_US: 'about-us'
 }
 
 export default path
