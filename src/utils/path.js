@@ -7,7 +7,9 @@ const path = {
     BOOKING: 'booking',
     AUTHENTICATION: '/auth',
     SHOWTIMES: 'showtimes',
-    ABOUT_US: 'about-us'
+    ABOUT_US: 'about-us',
+    NOW_SHOWING: 'now-showing',
+    COMING_SOON: 'coming-soon'
 }
 
 export default path

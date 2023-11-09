@@ -3,6 +3,9 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
+*{
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -15,4 +18,56 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+button.slick-next{
+  right: -20px;
+  z-index: 10;
+}
+.slick-slider{
+  .slick-arrow{
+      display:none !important;
+  }
+  &:hover{
+      .slick-arrow{
+          display:block !important;
+      }
+  }
+}
+button.slick-prev{
+  left: -40px;
+  z-index:10;
+}
+
+
+
+button.slick-next::before{
+  color:#4d0f71;
+  content: '\276F';
+  background-color:aliceblue;
+  width: 40px;
+  height: 60px;
+  font-weight: 600;
+  font-size: 20px;
+  border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button.slick-prev::before{
+  color:#4d0f71;
+  content: '\276E';
+  background-color:aliceblue;
+  width: 40px;
+  font-weight: 600;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+
+  height: 60px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }

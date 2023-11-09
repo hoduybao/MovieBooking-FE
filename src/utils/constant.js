@@ -14,3 +14,14 @@ export const navigation =[
       },
      
 ]
+
+export const navigationMovie=[
+  {id:1,
+    value: 'Now Showing',
+    path:`/${path.NOW_SHOWING}`
+  },
+{id:2,
+  value: 'Coming Soon',
+  path:`/${path.COMING_SOON}`
+},
+]
