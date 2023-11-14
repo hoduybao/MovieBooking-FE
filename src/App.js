@@ -6,6 +6,7 @@ import Home from './pages/Public/Home';
 import Public from './pages/Public/Public';
 import Booking from './pages/Public/Booking';
 import Detail from './pages/Public/Detail';
+import Showtime from './pages/Public/Showtime';
 
 import path from './utils/path';
 
@@ -26,6 +27,8 @@ function App() {
           <Route path={path.HOME} element={<Home />}></Route>
           <Route path={path.BOOKING} element={<Booking />}></Route>
           <Route path={path.DETAIL} element={<Detail />}></Route>
+          <Route path={path.SHOWTIMES} element={<Showtime />}></Route>
+
         </Route>
 
       </Routes>

@@ -1,0 +1,22 @@
+.showtime-detail {
+  background: #252629;
+  display: flex;
+  width: 40%;
+}
+
+.category-container-showtime {
+  display: flex;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.showtime-container {
+  padding: 50px 50px;
+  background: #252629;
+  display: flex;
+
+}
+
+.calendar-time {
+  margin-left: 50px;
+}
