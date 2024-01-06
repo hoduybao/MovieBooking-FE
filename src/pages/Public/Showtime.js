@@ -17,7 +17,7 @@ function Showtime() {
             <img
               src="https://cineplex2023.s3.ap-southeast-1.amazonaws.com/web-uploads/movies/169345859857129.webp"
               alt=""
-              style={{ height: 200, width: 150 }}
+              style={{ height: 200, width: 200 }}
             />
           </div>
 
