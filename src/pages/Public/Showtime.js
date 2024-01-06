@@ -88,7 +88,7 @@ function Showtime() {
           </div>
         </div>
         <div className="calendar-time">
-          <table className="styled-table" style={{ background: "#3e3e40", color: "white" }}>
+          <table className="styled-table1" style={{ background: "#3e3e40", color: "white" }}>
             <tbody >
               <tr>
                 <td>Sunday 5th, November 2023</td>

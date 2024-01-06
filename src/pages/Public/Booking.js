@@ -29,7 +29,7 @@ function SeatSelection() {
   };
 
   const rows = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"];
-  const numSeatsPerRow = 10;
+  const numSeatsPerRow = 9;
 
   return (
     <div className="reserve-container">
