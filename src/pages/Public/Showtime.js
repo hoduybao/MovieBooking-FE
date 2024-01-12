@@ -1,7 +1,19 @@
 import React, { useState } from "react";
 import "../../style/showtime.css";
 import { StarFilled } from "@ant-design/icons";
+import ReactPlayer from "react-player/youtube";
+
 function Showtime() {
+  const [showTrailer, setShowTrailer] = useState(false);
+
+  const handleWatchTrailer = () => {
+    setShowTrailer(true);
+  };
+
+  const handleCloseTrailer = () => {
+    setShowTrailer(false);
+  };
+
   return (
     <div className="container">
       <div className="movie-des" style={{ paddingTop: 50, paddingBot: 30 }}>
@@ -83,8 +95,22 @@ function Showtime() {
             </div>
             <div className="flex mt-6 gap-4">
               <button class="button-detail">Show time</button>
-              <button class="button1">Watch trailer</button>
+              <button className="button1" onClick={handleWatchTrailer}>
+                Watch trailer
+              </button>
             </div>
+            {showTrailer && (
+              <div className="trailer-overlay" onClick={handleCloseTrailer}>
+                <ReactPlayer
+                  url="https://www.youtube.com/watch?v=vfKiaXKO44M&ab_channel=Ronboogz"
+                  controls={true}
+                  width="70%"
+                  height="400px"
+                  className="trailer-player"
+                  onClick={(e) => e.stopPropagation()}
+                />
+              </div>
+            )}
           </div>
         </div>
         <div className="calendar-time">
